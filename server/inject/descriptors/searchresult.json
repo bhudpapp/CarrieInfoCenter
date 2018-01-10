@@ -29,6 +29,18 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 2
+          },
+          "project": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
+          },
+          "creationDate": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 4
           }
         }
       },
