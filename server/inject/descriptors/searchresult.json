@@ -7,9 +7,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "action": {
-            "type": "action"
-          },
           "shipmentNumber": {
             "type": "string",
             "update": {
@@ -48,6 +45,11 @@
         "type": "none"
       },
       "selectorAll": "#SearchResult > table > tbody > tr"
+    },
+    "isSearchResult": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "exists"
     }
   },
   "connect": []
