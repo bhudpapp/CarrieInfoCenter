@@ -15,6 +15,11 @@
       "type": "identifier",
       "selector": "#SearchResult",
       "control": "exists"
+    },
+    "search": {
+      "type": "action",
+      "selector": ".btn.preventMultiClick",
+      "control": "action.button"
     }
   },
   "connect": [
