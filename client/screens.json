@@ -20,13 +20,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "landing",
-      "name": "Landing",
-      "sourceScreenId": "app.home.homecool",
-      "sourceAppId": "universaltemplates",
-      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",
