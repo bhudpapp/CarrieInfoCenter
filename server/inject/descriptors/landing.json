@@ -9,7 +9,7 @@
     "isLanding": {
       "type": "identifier",
       "selector": "#SearchResult",
-      "control": "exist"
+      "control": "exists"
     }
   },
   "connect": []
