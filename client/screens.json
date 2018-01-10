@@ -27,6 +27,13 @@
       "sourceScreenId": "app.barcode",
       "sourceAppId": "Barcode",
       "model": "landing"
+    },
+    {
+      "id": "searchresult",
+      "name": "SearchResult",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "searchresult"
     }
   ],
   "sourceAppId": "_blank",
