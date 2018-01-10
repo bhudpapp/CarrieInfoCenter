@@ -30,6 +30,15 @@
             },
             "icon": {
               "type": "string"
+            },
+            "trackingNumber": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
             }
           }
         },
