@@ -25,9 +25,6 @@
                 "type": "none"
               }
             },
-            "action": {
-              "type": "action"
-            },
             "icon": {
               "type": "string"
             },
@@ -51,6 +48,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "isSearchResult": {
+        "type": "string"
       }
     }
   }
