@@ -25,7 +25,8 @@
       "id": "landing",
       "name": "Landing",
       "sourceScreenId": "app.barcode",
-      "sourceAppId": "Barcode"
+      "sourceAppId": "Barcode",
+      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",

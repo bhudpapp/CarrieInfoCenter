@@ -1,1 +1,10 @@
-{}
+{
+  "landing": {
+    "type": "object",
+    "properties": {
+      "trackingNumber": {
+        "type": "string"
+      }
+    }
+  }
+}

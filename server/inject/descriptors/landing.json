@@ -17,5 +17,15 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding",
+        "isNotLanding"
+      ],
+      "screens": [
+        "landing"
+      ]
+    }
+  ]
 }
