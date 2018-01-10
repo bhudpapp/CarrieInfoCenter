@@ -7,17 +7,20 @@
       "items": {
         "type": "object",
         "properties": {
-          "string": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            }
-          },
           "action": {
             "type": "action"
           },
-          "icon": {
-            "type": "string"
+          "shipmentNumber": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "td"
+          },
+          "packageNumber": {
+            "type": "string",
+            "selectIndex": 2,
+            "selector": "td"
           }
         }
       },
