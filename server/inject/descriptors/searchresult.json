@@ -23,6 +23,12 @@
             "selectIndex": 1,
             "selector": "td",
             "control": "property.innerText"
+          },
+          "trackingNumber": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 2
           }
         }
       },
