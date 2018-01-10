@@ -20,6 +20,12 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "landing",
+      "name": "Landing",
+      "sourceScreenId": "app.barcode",
+      "sourceAppId": "Barcode"
     }
   ],
   "sourceAppId": "_blank",
