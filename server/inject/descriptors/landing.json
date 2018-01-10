@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "trackingNumber": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "isLanding": {
+      "type": "identifier",
+      "selector": ".btn.preventMultiClick",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
