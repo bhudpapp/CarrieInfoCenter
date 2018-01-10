@@ -20,7 +20,8 @@
           "packageNumber": {
             "type": "string",
             "selectIndex": 1,
-            "selector": "td"
+            "selector": "td",
+            "control": "text"
           }
         }
       },
