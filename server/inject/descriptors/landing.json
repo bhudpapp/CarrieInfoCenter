@@ -16,7 +16,7 @@
       "selector": "#SearchResult",
       "control": {
         "fn": "",
-        "control": "exists"
+        "control": "!exists"
       }
     }
   },
