@@ -8,8 +8,8 @@
     },
     "isLanding": {
       "type": "identifier",
-      "selector": ".btn.preventMultiClick",
-      "control": "property.innerText"
+      "selector": "table",
+      "control": "exist"
     }
   },
   "connect": []
