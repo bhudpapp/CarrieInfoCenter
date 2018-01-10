@@ -47,7 +47,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "tr"
+      "selectorAll": "#SearchResult > table > tbody > tr"
     }
   },
   "connect": []
