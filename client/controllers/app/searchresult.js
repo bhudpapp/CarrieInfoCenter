@@ -3,3 +3,8 @@ function app_searchresult($scope, app) {
     'use strict';
     app.init($scope);
 }
+function app_gohome($scope, app)
+{
+    app.go('app.landing');
+    data.trackingNumber = "";
+}
