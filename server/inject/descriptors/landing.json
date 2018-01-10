@@ -10,6 +10,11 @@
       "type": "identifier",
       "selector": ":not(#SearchResult)",
       "control": "exists"
+    },
+    "isNotLanding": {
+      "type": "identifier",
+      "selector": "#SearchResult",
+      "control": "exists"
     }
   },
   "connect": []
