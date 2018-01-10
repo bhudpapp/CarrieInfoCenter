@@ -6,5 +6,4 @@ function app_searchresult($scope, app) {
 $scope.gohome = function()
 {
     app.go('app.landing');
-    data.trackingNumber = "";
 }
