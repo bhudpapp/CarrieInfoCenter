@@ -3,8 +3,8 @@
   "properties": {
     "trackingNumber": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "input.input-medium.search-query",
+      "control": "text"
     },
     "isLanding": {
       "type": "identifier",
