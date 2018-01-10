@@ -55,7 +55,7 @@
       "isSearchResult": {
         "type": "string"
       },
-      "goHome": {
+      "gohome": {
         "type": "action"
       }
     }
