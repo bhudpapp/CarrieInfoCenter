@@ -14,10 +14,7 @@
     "isNotLanding": {
       "type": "identifier",
       "selector": "#SearchResult",
-      "control": {
-        "fn": "",
-        "control": "!exists"
-      }
+      "control": "exists"
     }
   },
   "connect": []
