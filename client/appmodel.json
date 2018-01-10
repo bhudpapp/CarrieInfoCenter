@@ -54,9 +54,6 @@
       },
       "isSearchResult": {
         "type": "string"
-      },
-      "gohome": {
-        "type": "action"
       }
     }
   }
