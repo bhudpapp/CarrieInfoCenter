@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "carrieinfocenter",
-  "startScreen": "app.blank",
+  "startScreen": "app.landing",
   "screens": [
     {
       "id": "blank",

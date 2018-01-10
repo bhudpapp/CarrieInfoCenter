@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "b4494115",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "bhudpapp"
+  "creatorId": "bhudpapp",
+  "id": "carrieinfocenter",
+  "previewImageURL": "/previews/b4494115-carrieinfocenter/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/bhudpapp/CarrieInfoCenter",
+  "creatorName": "Daniel Papp",
+  "sdks": []
 }
