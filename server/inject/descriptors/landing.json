@@ -8,7 +8,7 @@
     },
     "isLanding": {
       "type": "identifier",
-      "selector": "div[id=\"SearchResult\"]",
+      "selector": "#SearchResult",
       "control": "exist"
     }
   },
