@@ -107,10 +107,6 @@
   },
   "details": {
     "type": "object",
-    "properties": {
-      "isS": {
-        "type": "string"
-      }
-    }
+    "properties": {}
   }
 }
