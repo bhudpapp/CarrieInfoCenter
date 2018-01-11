@@ -24,7 +24,8 @@
         ]
       },
       "selector": ".div-table-col-content",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectIndex": 1
     },
     "trackingNumber": {
       "type": "string",
