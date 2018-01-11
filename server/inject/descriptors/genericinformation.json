@@ -23,9 +23,8 @@
           "submit"
         ]
       },
-      "selector": ".div-table-col-content",
-      "control": "property.innerText",
-      "selectIndex": 1
+      "selector": "li.div-header.k-item.k-first.k-state-highlight > span > .div-table-col-content",
+      "control": "property.innerText"
     },
     "trackingNumber": {
       "type": "string",
