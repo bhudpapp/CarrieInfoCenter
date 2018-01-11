@@ -69,10 +69,16 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "value": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         }
