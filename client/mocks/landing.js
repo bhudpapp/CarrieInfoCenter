@@ -5,5 +5,5 @@ window.mocks.landing.search = function ($scope, params, app) {
     app.go('app.searchresult');
 };
 window.mocks.landing.searchResultClick = function ($scope, params, app) {
-    app.go('genericinformation');
+    app.go('app.genericinformation');
 };
