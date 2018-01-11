@@ -11,6 +11,11 @@
       "type": "string",
       "selector": "input.input-medium.search-query",
       "control": "property.innerText"
+    },
+    "shipmentNumber": {
+      "type": "string",
+      "selector": "#shipmentNumber",
+      "control": "property.innerText"
     }
   },
   "connect": []
