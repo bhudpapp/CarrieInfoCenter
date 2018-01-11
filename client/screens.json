@@ -36,8 +36,8 @@
       "model": "searchresult"
     },
     {
-      "id": "shipmentdetail2",
-      "name": "ShipmentDetail2",
+      "id": "shipmentdetail",
+      "name": "ShipmentDetail",
       "sourceScreenId": "app.infinitescroll",
       "sourceAppId": "InfiniteScroll",
       "model": "shipmentdetail2"

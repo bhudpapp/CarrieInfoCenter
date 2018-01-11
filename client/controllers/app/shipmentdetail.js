@@ -1,5 +1,5 @@
-angular.module('app').controller('app_shipmentdetail2', app_shipmentdetail2);
-function app_shipmentdetail2($scope, app, $ionicScrollDelegate) {
+angular.module('app').controller('app_shipmentdetail', app_shipmentdetail);
+function app_shipmentdetail($scope, app, $ionicScrollDelegate) {
     'use strict';
     app.init($scope, function (data) {
         if (!$scope.productItems) {
