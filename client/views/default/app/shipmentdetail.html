@@ -14,17 +14,15 @@
             <div class="item item-icon-right" data-comp-id="item.1"
                 ng-repeat="item in data.results track by $index" style="padding: 0px 5px;">
                 <div class="row" data-comp-id="row.1">
-                    <div class="col" data-comp-id="column.1">
-                        <div class="" data-comp-id="text.1" ng-bind="item.name"
-                            style="font-size: 16px; margin: 3px 0px 6px; line-height: 20px; white-space: normal;">Price &amp; Availability</div>
-                        <div class=" balanced" data-comp-id="text.2" ng-bind="item.price"
-                            style="font-size: 18px; margin: 3px 0px 6px; line-height: 18px;">Price &amp; Availability</div>
-                    </div>
+                    <div class="col" data-comp-id="column.1"></div>
+                    <div class="col" data-comp-id="column.3"></div>
                 </div>
                 <div class="row" data-comp-id="row.2">
-                    <div class="col text-center" data-comp-id="column.2" style="padding: 0px;"><img ng-src="{{item.image}}" style="width: 60%"></div>
+                    <div class="col" data-comp-id="column.4"></div>
+                    <div class="col" data-comp-id="column.2"></div>
                 </div>
             </div>
         </ion-scroll>
     </ion-content>
+    <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer=""></ion-footer-bar>
 </ion-view>
