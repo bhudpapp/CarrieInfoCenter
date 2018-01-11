@@ -5,21 +5,7 @@
       "type": "identifier",
       "selector": ".k-selectable",
       "control": "exists"
-    },
-    "isS": {
-      "type": "identifier",
-      "selector": "#work-area",
-      "control": "property.innerHTML"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isTable"
-      ],
-      "screens": [
-        "blank"
-      ]
-    }
-  ]
+  "connect": []
 }
