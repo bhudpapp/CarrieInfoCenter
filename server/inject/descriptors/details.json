@@ -16,6 +16,56 @@
       "type": "string",
       "selector": "#shipmentNumber",
       "control": "property.innerText"
+    },
+    "packageNumber": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "ServiceLevel": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "Status": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "CreationDate": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "Height": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "Length": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "Depth": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "TotalWeight": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "MeasuredWeight": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
+    },
+    "NetWeight": {
+      "type": "string",
+      "selector": "#trackingNumber",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
