@@ -10,7 +10,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#trackingNumber",
+      "control": "property.innerText"
     },
     "packageNumber": {
       "type": "string",
