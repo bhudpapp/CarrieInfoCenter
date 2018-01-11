@@ -71,10 +71,7 @@
             "name": {
               "type": "string"
             },
-            "price": {
-              "type": "string"
-            },
-            "image": {
+            "value": {
               "type": "string"
             }
           }
