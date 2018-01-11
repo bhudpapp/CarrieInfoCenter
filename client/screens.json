@@ -41,6 +41,13 @@
       "sourceScreenId": "app.formsmall.formsmallclassic",
       "sourceAppId": "universaltemplates",
       "model": "shipmentdetail"
+    },
+    {
+      "id": "shipmentdetail2",
+      "name": "ShipmentDetail2",
+      "sourceScreenId": "app.infinitescroll",
+      "sourceAppId": "InfiniteScroll",
+      "model": "shipmentdetail2"
     }
   ],
   "sourceAppId": "_blank",

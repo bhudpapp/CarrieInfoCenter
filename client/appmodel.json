@@ -192,5 +192,30 @@
         "type": "action"
       }
     }
+  },
+  "shipmentdetail2": {
+    "type": "object",
+    "properties": {
+      "results": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "price": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "nextpage": {
+        "type": "action"
+      }
+    }
   }
 }
