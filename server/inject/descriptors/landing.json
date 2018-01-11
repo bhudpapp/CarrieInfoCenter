@@ -62,7 +62,7 @@
     "shipmentNumber": {
       "type": "string",
       "selector": "#shipmentNumber",
-      "control": "text"
+      "control": "property.innerText"
     },
     "packageNumber": {
       "type": "string",
