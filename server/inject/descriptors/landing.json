@@ -41,13 +41,15 @@
           },
           "project": {
             "type": "string",
-            "selector": "[name=\"value\"]",
-            "control": "text"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
           },
           "creationDate": {
             "type": "string",
-            "selector": "[name=\"value\"]",
-            "control": "text"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 4
           }
         }
       }
