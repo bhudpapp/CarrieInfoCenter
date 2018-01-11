@@ -2,33 +2,6 @@
   "type": "object",
   "comment": "Login",
   "properties": {
-    "username": {
-      "type": "string",
-      "label": "username",
-      "update": {
-        "type": "action",
-        "action": [
-          "submit"
-        ]
-      }
-    },
-    "password": {
-      "type": "string",
-      "label": "password",
-      "update": {
-        "type": "action",
-        "action": [
-          "submit"
-        ]
-      }
-    },
-    "errorMessage": {
-      "type": "string",
-      "label": "errorMessage",
-      "update": {
-        "type": "none"
-      }
-    },
     "submit": {
       "type": "action",
       "parameters": {
@@ -39,6 +12,11 @@
           "type": "string"
         }
       }
+    },
+    "isLogin": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": []
