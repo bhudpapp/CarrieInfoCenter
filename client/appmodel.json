@@ -7,6 +7,62 @@
       },
       "search": {
         "type": "action"
+      },
+      "searchResultList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "shipmentNumber": {
+              "type": "string"
+            },
+            "packageNumber": {
+              "type": "string"
+            },
+            "trackingNumber": {
+              "type": "string"
+            },
+            "project": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "shipmentNumber": {
+        "type": "string"
+      },
+      "packageNumber": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "creationDate": {
+        "type": "string"
+      },
+      "height": {
+        "type": "string"
+      },
+      "length": {
+        "type": "string"
+      },
+      "depth": {
+        "type": "string"
+      },
+      "totalWeight": {
+        "type": "string"
+      },
+      "measuredWeight": {
+        "type": "string"
+      },
+      "netWeight": {
+        "type": "string"
+      },
+      "searchResultClick": {
+        "type": "action"
       }
     }
   },
