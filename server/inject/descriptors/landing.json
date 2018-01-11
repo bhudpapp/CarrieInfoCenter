@@ -101,6 +101,11 @@
       "type": "string",
       "selector": "[name=\"value\"]",
       "control": "text"
+    },
+    "searchResultClick": {
+      "type": "action",
+      "selector": "[name=\"value\"]",
+      "control": "text"
     }
   },
   "connect": [
