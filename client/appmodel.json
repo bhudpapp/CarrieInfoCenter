@@ -119,7 +119,10 @@
         "type": "string"
       },
       "serviceLevel": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "status": {
         "type": "string"
