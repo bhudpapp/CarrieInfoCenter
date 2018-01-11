@@ -60,7 +60,7 @@
       }
     }
   },
-  "shipmentdetail": {
+  "shipmentdetail_test": {
     "type": "object",
     "properties": {
       "results": {
@@ -91,7 +91,7 @@
       }
     }
   },
-  "shipmentdetail2": {
+  "genericinformation": {
     "type": "object",
     "comment": "Forms",
     "properties": {

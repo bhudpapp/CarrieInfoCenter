@@ -40,14 +40,14 @@
       "name": "ShipmentDetail_test",
       "sourceScreenId": "app.infinitescroll",
       "sourceAppId": "InfiniteScroll",
-      "model": "shipmentdetail"
+      "model": "shipmentdetail_test"
     },
     {
       "id": "genericinformation",
       "name": "GenericInformation",
       "sourceScreenId": "app.formsmall.formsmallcool",
       "sourceAppId": "universaltemplates",
-      "model": "shipmentdetail2"
+      "model": "genericinformation"
     }
   ],
   "sourceAppId": "_blank",
