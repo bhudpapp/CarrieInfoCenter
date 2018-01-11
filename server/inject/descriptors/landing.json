@@ -61,7 +61,7 @@
     },
     "shipmentNumber": {
       "type": "string",
-      "selector": "[name=\"value\"]",
+      "selector": "#shipmentNumber",
       "control": "text"
     },
     "packageNumber": {
