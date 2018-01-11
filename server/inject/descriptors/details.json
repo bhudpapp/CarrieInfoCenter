@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isDetails": {
+      "type": "string",
+      "control": "exists",
+      "selector": "div.div-table-col-label",
+      "selectContains": "Ship From"
+    }
+  },
   "connect": []
 }
