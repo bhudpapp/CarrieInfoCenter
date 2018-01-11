@@ -40,7 +40,7 @@
       "name": "GenericInformation",
       "sourceScreenId": "app.formsmall.formsmallcool",
       "sourceAppId": "universaltemplates",
-      "model": "landing"
+      "model": "details"
     }
   ],
   "sourceAppId": "_blank",
