@@ -3,7 +3,10 @@
     "type": "object",
     "properties": {
       "trackingNumber": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "search": {
         "type": "action"
@@ -32,34 +35,64 @@
         }
       },
       "shipmentNumber": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "packageNumber": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "status": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "creationDate": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "height": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "length": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "depth": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "totalWeight": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "measuredWeight": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "netWeight": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "searchResultClick": {
         "type": "action"
