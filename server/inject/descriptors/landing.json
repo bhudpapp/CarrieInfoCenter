@@ -11,15 +11,94 @@
       "selector": "[name=\"value\"]",
       "control": "exists"
     },
-    "isNotLanding": {
-      "type": "identifier",
-      "selector": "#SearchResult",
-      "control": "exists"
-    },
     "search": {
       "type": "action",
       "selector": ".btn.preventMultiClick",
       "control": "action.button"
+    },
+    "searchResultList": {
+      "type": "array",
+      "selectorAll": "[name=\"value\"]",
+      "items": {
+        "type": "object",
+        "properties": {
+          "shipmentNumber": {
+            "type": "string",
+            "selector": "[name=\"value\"]",
+            "control": "text"
+          },
+          "packageNumber": {
+            "type": "string",
+            "selector": "[name=\"value\"]",
+            "control": "text"
+          },
+          "trackingNumber": {
+            "type": "string",
+            "selector": "[name=\"value\"]",
+            "control": "text"
+          },
+          "project": {
+            "type": "string",
+            "selector": "[name=\"value\"]",
+            "control": "text"
+          },
+          "creationDate": {
+            "type": "string",
+            "selector": "[name=\"value\"]",
+            "control": "text"
+          }
+        }
+      }
+    },
+    "shipmentNumber": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "packageNumber": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "status": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "creationDate": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "height": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "length": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "depth": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "totalWeight": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "measuredWeight": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
+    },
+    "netWeight": {
+      "type": "string",
+      "selector": "[name=\"value\"]",
+      "control": "text"
     }
   },
   "connect": [
