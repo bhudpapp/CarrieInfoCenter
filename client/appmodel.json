@@ -46,7 +46,7 @@
                 "type": "none"
               }
             },
-            "action": {
+            "searchResultClick": {
               "type": "action"
             }
           }
