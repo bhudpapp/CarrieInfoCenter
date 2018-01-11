@@ -19,53 +19,53 @@
     },
     "packageNumber": {
       "type": "string",
-      "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4)",
+      "control": "property.innerText"
     },
-    "ServiceLevel": {
+    "serviceLevel": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "Status": {
+    "status": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "CreationDate": {
+    "creationDate": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "Height": {
+    "height": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "Length": {
+    "length": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "Depth": {
+    "depth": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "TotalWeight": {
+    "totalWeight": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "MeasuredWeight": {
+    "measuredWeight": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
-    "NetWeight": {
+    "netWeight": {
       "type": "string",
       "selector": "#trackingNumber",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     }
   },
   "connect": []
