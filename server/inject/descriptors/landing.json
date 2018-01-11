@@ -18,7 +18,7 @@
     },
     "searchResultList": {
       "type": "array",
-      "selectorAll": "[name=\"value\"]",
+      "selectorAll": "#SearchResult > table > tbody > tr",
       "items": {
         "type": "object",
         "properties": {
