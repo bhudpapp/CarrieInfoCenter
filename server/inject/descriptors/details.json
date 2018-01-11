@@ -34,12 +34,13 @@
     },
     "creationDate": {
       "type": "string",
-      "selector": "#trackingNumber",
-      "control": "property.innerText"
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div.div-table-col-content",
+      "control": "property.innerText",
+      "selectIndex": 1
     },
     "height": {
       "type": "string",
-      "selector": "#trackingNumber",
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div.div-table-col-content",
       "control": "property.innerText"
     },
     "length": {
@@ -49,7 +50,7 @@
     },
     "depth": {
       "type": "string",
-      "selector": "#trackingNumber",
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(5) > div.div-table-col-content",
       "control": "property.innerText"
     },
     "totalWeight": {
