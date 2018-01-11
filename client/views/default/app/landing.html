@@ -18,7 +18,8 @@
             </div>
             <div class="col col-10" data-comp-id="column.3" ng-click="search()">
                 <button class="button button-clear ion-ios-search button-small"
-                    data-comp-id="button.2" style="font-size: 25px;"></button>
+                    data-comp-id="button.2" ng-click="app.action('landing', 'search', this)"
+                    style="font-size: 25px;"></button>
             </div>
         </div>
         <ion-list data-comp-id="ionic-list.1">

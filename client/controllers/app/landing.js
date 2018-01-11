@@ -20,9 +20,4 @@ function app_landing($scope, app) {
             'orientation': 'landscape'
         });
     };
-    $scope.search = function()
-    {
-        app.action('landing', 'search', this);
-        app.go('searchresult');
-    };
 }
