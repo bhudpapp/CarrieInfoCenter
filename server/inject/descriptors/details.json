@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-    "isTable": {
+    "isDetails": {
       "type": "identifier",
       "selector": "div.div-table-col-label",
       "control": "exists",
