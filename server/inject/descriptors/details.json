@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": ".k-selectable",
       "control": "exists"
+    },
+    "isS": {
+      "type": "string",
+      "selector": "#work-area",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
