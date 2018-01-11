@@ -4,8 +4,12 @@
       "name": "Shipment Number:",
       "value": "-"
     },
-        {
-      "name": "Shipment Number:",
+    {
+      "name": "Package Number:",
+      "value": "-"
+    },
+    {
+      "name": "Tracking Number:",
       "value": "-"
     }
   ]
