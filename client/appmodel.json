@@ -45,6 +45,9 @@
               "update": {
                 "type": "none"
               }
+            },
+            "action": {
+              "type": "action"
             }
           }
         },

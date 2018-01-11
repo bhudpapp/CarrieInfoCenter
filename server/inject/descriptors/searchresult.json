@@ -39,7 +39,7 @@
             "control": "property.innerText",
             "selectIndex": 4
           },
-          "action": {
+          "searchResultClick": {
             "type": "action",
             "selector": "td",
             "control": "action.click"
