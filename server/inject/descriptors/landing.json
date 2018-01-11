@@ -122,6 +122,12 @@
       "screens": [
         "landing"
       ]
+    },
+    {
+      "match": [],
+      "screens": [
+        "genericinformation"
+      ]
     }
   ]
 }
