@@ -30,6 +30,9 @@
             },
             "creationDate": {
               "type": "string"
+            },
+            "searchResultClick": {
+              "type": "action"
             }
           }
         },
@@ -96,9 +99,6 @@
         "update": {
           "type": "none"
         }
-      },
-      "searchResultClick": {
-        "type": "action"
       }
     }
   },
