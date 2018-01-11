@@ -60,7 +60,7 @@
       }
     }
   },
-  "shipmentdetail2": {
+  "shipmentdetail": {
     "type": "object",
     "properties": {
       "results": {

@@ -40,7 +40,7 @@
       "name": "ShipmentDetail",
       "sourceScreenId": "app.infinitescroll",
       "sourceAppId": "InfiniteScroll",
-      "model": "shipmentdetail2"
+      "model": "shipmentdetail"
     }
   ],
   "sourceAppId": "_blank",
