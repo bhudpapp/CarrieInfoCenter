@@ -41,6 +41,13 @@
       "sourceScreenId": "app.formsmall.formsmallcool",
       "sourceAppId": "universaltemplates",
       "model": "landing"
+    },
+    {
+      "id": "login",
+      "name": "Login",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
