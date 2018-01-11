@@ -50,6 +50,11 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 4
+          },
+          "searchResultClick": {
+            "type": "action",
+            "selector": "td",
+            "control": "action.click"
           }
         }
       }
@@ -101,11 +106,6 @@
     },
     "netWeight": {
       "type": "string",
-      "selector": "[name=\"value\"]",
-      "control": "text"
-    },
-    "searchResultClick": {
-      "type": "action",
       "selector": "[name=\"value\"]",
       "control": "text"
     }
