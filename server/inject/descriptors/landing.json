@@ -109,8 +109,9 @@
     },
     "netWeight": {
       "type": "string",
-      "selector": "[name=\"value\"]",
-      "control": "text"
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div.div-table-col-content",
+      "control": "property.innerText",
+      "selectIndex": 1
     }
   },
   "connect": [
