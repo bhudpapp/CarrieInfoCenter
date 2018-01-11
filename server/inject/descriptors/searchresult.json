@@ -38,6 +38,11 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 4
+          },
+          "action": {
+            "type": "action",
+            "selector": "#SearchResult > table > tbody > tr.k-state-selected",
+            "control": "action.click"
           }
         }
       },
