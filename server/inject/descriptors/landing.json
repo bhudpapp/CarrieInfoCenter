@@ -24,18 +24,20 @@
         "properties": {
           "shipmentNumber": {
             "type": "string",
-            "selector": "[name=\"value\"]",
-            "control": "text"
+            "selector": "td",
+            "control": "property.innerText"
           },
           "packageNumber": {
             "type": "string",
-            "selector": "[name=\"value\"]",
-            "control": "text"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
           },
           "trackingNumber": {
             "type": "string",
-            "selector": "[name=\"value\"]",
-            "control": "text"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 2
           },
           "project": {
             "type": "string",
