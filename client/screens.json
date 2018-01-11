@@ -40,7 +40,7 @@
       "name": "ShipmentDetail_test",
       "sourceScreenId": "app.infinitescroll",
       "sourceAppId": "InfiniteScroll",
-      "model": "shipmentdetail_test"
+      "model": "landing"
     },
     {
       "id": "genericinformation",
