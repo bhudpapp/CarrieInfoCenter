@@ -2,10 +2,15 @@
   "type": "object",
   "properties": {
     "isDetails": {
-      "type": "string",
+      "type": "identifier",
       "control": "exists",
       "selector": "div.div-table-col-label",
       "selectContains": "Ship From"
+    },
+    "trackingNumber": {
+      "type": "string",
+      "selector": "input.input-medium.search-query",
+      "control": "property.innerText"
     }
   },
   "connect": []
