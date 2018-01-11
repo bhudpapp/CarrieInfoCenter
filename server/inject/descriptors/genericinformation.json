@@ -1,0 +1,111 @@
+{
+  "type": "object",
+  "comment": "Forms",
+  "properties": {
+    "shipmentNumber": {
+      "type": "string",
+      "label": "TextInput",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "packageNumber": {
+      "type": "string",
+      "label": "TextInput",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "trackingNumber": {
+      "type": "string",
+      "label": "TextArea",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "status": {
+      "type": "string",
+      "label": "MultiSelect",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "creationDate": {
+      "type": "string",
+      "label": "MultiSelect",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "height": {
+      "type": "string",
+      "label": "Radio"
+    },
+    "totalWeight": {
+      "type": "string",
+      "label": "CheckBoxes",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "length": {
+      "type": "string",
+      "label": "CheckBoxes",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "measuredWeight": {
+      "type": "string",
+      "label": "Date",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "depth": {
+      "type": "string",
+      "label": "Time",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "netWeight": {
+      "type": "string",
+      "label": "Name",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    }
+  },
+  "connect": []
+}
