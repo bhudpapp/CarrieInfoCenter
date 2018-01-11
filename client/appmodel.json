@@ -108,6 +108,43 @@
   "details": {
     "type": "object",
     "comment": "details",
-    "properties": {}
+    "properties": {
+      "trackingNumber": {
+        "type": "string"
+      },
+      "shipmentNumber": {
+        "type": "string"
+      },
+      "packageNumber": {
+        "type": "string"
+      },
+      "serviceLevel": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "creationDate": {
+        "type": "string"
+      },
+      "height": {
+        "type": "string"
+      },
+      "length": {
+        "type": "string"
+      },
+      "depth": {
+        "type": "string"
+      },
+      "totalWeight": {
+        "type": "string"
+      },
+      "measuredWeight": {
+        "type": "string"
+      },
+      "netWeight": {
+        "type": "string"
+      }
+    }
   }
 }
