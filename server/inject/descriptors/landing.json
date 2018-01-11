@@ -81,8 +81,8 @@
     },
     "height": {
       "type": "string",
-      "selector": "[name=\"value\"]",
-      "control": "text"
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3)",
+      "control": "property.innerText"
     },
     "length": {
       "type": "string",
