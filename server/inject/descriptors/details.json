@@ -7,10 +7,19 @@
       "control": "exists"
     },
     "isS": {
-      "type": "string",
+      "type": "identifier",
       "selector": "#work-area",
       "control": "property.innerHTML"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isTable"
+      ],
+      "screens": [
+        "blank"
+      ]
+    }
+  ]
 }
