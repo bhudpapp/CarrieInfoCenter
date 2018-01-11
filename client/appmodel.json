@@ -5,8 +5,10 @@
       "trackingNumber": {
         "type": "string",
         "update": {
-          "type": "change",
-          "dynamic": false
+          "type": "action",
+          "action": [
+            "search"
+          ]
         }
       },
       "search": {
