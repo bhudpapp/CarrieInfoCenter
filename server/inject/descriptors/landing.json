@@ -112,12 +112,11 @@
   },
   "connect": [
     {
-      "match": [
-        "isLanding",
-        "isNotLanding"
-      ],
+      "match": [],
       "screens": [
-        "landing"
+        "landing",
+        "searchresult",
+        "genericinformation"
       ]
     }
   ]

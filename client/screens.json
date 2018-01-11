@@ -32,13 +32,15 @@
       "id": "searchresult",
       "name": "SearchResult",
       "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates"
+      "sourceAppId": "universaltemplates",
+      "model": "landing"
     },
     {
       "id": "genericinformation",
       "name": "GenericInformation",
       "sourceScreenId": "app.formsmall.formsmallcool",
-      "sourceAppId": "universaltemplates"
+      "sourceAppId": "universaltemplates",
+      "model": "landing"
     }
   ],
   "sourceAppId": "_blank",
