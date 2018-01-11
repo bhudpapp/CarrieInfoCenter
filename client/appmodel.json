@@ -104,5 +104,10 @@
         }
       }
     }
+  },
+  "details": {
+    "type": "object",
+    "comment": "details",
+    "properties": {}
   }
 }
