@@ -72,5 +72,14 @@
       "selectIndex": 1
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isDetails"
+      ],
+      "screens": [
+        "genericinformation"
+      ]
+    }
+  ]
 }
