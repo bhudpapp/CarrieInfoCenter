@@ -66,7 +66,7 @@
     },
     "packageNumber": {
       "type": "string",
-      "selector": "li.div-header.k-item.k-first.k-state-highlight > span > .div-table-col-content.div-table-col-indentation",
+      "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4)",
       "control": "text"
     },
     "status": {
