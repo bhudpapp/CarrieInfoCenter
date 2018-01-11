@@ -22,7 +22,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": ".div-table-col-content",
+      "control": "property.innerText"
     },
     "trackingNumber": {
       "type": "string",
