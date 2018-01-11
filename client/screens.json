@@ -7,8 +7,7 @@
       "id": "blank",
       "name": "BLANK",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "details"
+      "sourceScreenId": "app.blank"
     },
     {
       "id": "menu",
