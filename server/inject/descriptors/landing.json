@@ -8,7 +8,7 @@
     },
     "isLanding": {
       "type": "identifier",
-      "selector": ":not(#SearchResult)",
+      "selector": "[name=\"value\"]",
       "control": "exists"
     },
     "isNotLanding": {
