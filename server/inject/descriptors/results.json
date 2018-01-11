@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isTable": {
+      "type": "identifier",
+      "selector": ".k-selectable",
+      "control": "exists"
+    }
+  },
   "connect": []
 }
