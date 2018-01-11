@@ -8,47 +8,32 @@
     </ion-nav-bar>
     <ion-content class="" data-comp-id="ionic-content.1">
         <!--Form Contents-->
-        <div data-comp-id="div.1" style="margin: 10% 10% 2%;">
-            <label class="item item-input" data-comp-id="textInput.1">
-                <span class="input-label">Text</span>
-                <input ng-model="data.trackingNumber" placeholder="Tracking Number" type="text">
-            </label>
-        </div>
-        <div data-comp-id="div.2" style="width: 80%; margin: 4% 10%;">
-            <div class="row" data-comp-id="row.1" style="margin: 0px; padding: 0px;">
-                <div class="col col-10" data-comp-id="column.1"></div>
-                <div class="col" data-comp-id="column.2">
-                    {{redval}}
-                    <button class="button button-block" data-comp-id="button.2" ng-click="search()">Search</button>
-                </div>
-                <div class="col col-10" data-comp-id="column.3"></div>
+        <div class="row" data-comp-id="row.4">
+            <div class="col col-10" data-comp-id="column.9"></div>
+            <div class="col" data-comp-id="column.8">
+                <label class="item item-input" data-comp-id="textInput.1">
+                    <span class="input-label">Text</span>
+                    <input ng-model="data.trackingNumber" placeholder="Tracking Number" type="text">
+                </label>
+            </div>
+            <div class="col col-10" data-comp-id="column.10" ng-click="search()">
+                <button class="button button-clear ion-ios-search button-small"
+                    data-comp-id="button.4" style="font-size: 25px;"></button>
             </div>
         </div>
         <!--Form Contents-->
     </ion-content>
-    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.2"
         dynamic-floating-footer="">
-        <div class="row" data-comp-id="row.2">
-            <div class="col" data-comp-id="column.4"></div>
-            <div class="col" data-comp-id="column.5">
-                <div class="footer-button button-footer-center" data-comp-id="footerButton.1">
-                    <button
-                        class="button button-positive button-round button-shadowed fa-icon fa-barcode"></button>
+        <div class="row" data-comp-id="row.1" style="padding: 0px;">
+            <div class="col" data-comp-id="column.1" style="padding: 0px;"></div>
+            <div class="col text-center" data-comp-id="column.2" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.3">
+                    <button class="button icon button-round button-shadowed fa-icon fa-barcode"></button>
                     <div class="label"></div>
                 </div>
             </div>
-            <div class="col" data-comp-id="column.6"></div>
-        </div>
-        <div class="row" data-comp-id="row.3" style="padding: 0px;">
-            <div class="col text-center" data-comp-id="column.7" ng-click="scan()"
-                style="padding: 0px;">
-                <button class="button button-block button-positive button-clear positive-border"
-                    data-comp-id="button.3" ng-click="reset()">
-                    <i class="icon ion-close-circled" data-comp-id="icon.1"
-                        style="font-size: 16px;  color: rgb(0, 154, 221);"></i>
-                    <span style="font-size: 14px; color: rgb(0, 154, 221);">Clear Barcode</span>
-                </button>
-            </div>
+            <div class="col text-right" data-comp-id="column.3" style="padding: 0px;"></div>
         </div>
     </div>
 </ion-view>
