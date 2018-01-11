@@ -3,8 +3,9 @@
   "properties": {
     "isTable": {
       "type": "identifier",
-      "selector": ".k-selectable",
-      "control": "exists"
+      "selector": "div.div-table-col-label",
+      "control": "exists",
+      "selectContains": "Ship From"
     }
   },
   "connect": []
