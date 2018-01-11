@@ -9,7 +9,7 @@
     },
     "trackingNumber": {
       "type": "string",
-      "selector": "input.input-medium.search-query",
+      "selector": "#trackingNumber",
       "control": "property.innerText"
     },
     "shipmentNumber": {
