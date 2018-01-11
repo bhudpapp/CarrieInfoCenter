@@ -1,1 +1,15 @@
-{}
+{
+ "isDetails": true,
+ "trackingNumber": "1957669652",
+ "shipmentNumber": "LD001",
+ "packageNumber": "Package SN",
+ "serviceLevel": "FedEx Freight Priority",
+ "status": "New",
+ "creationDate": "1/5/2018 12:06:16 PM",
+ "height": "10.00 cm",
+ "length": "10.00 cm",
+ "depth": "10.00 cm",
+ "totalWeight": "40.00 kg",
+ "measuredWeight": "0 kg",
+ "netWeight": "20.00 kg"
+}
