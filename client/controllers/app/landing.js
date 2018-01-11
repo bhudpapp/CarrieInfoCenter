@@ -25,5 +25,4 @@ function app_landing($scope, app) {
         app.action('landing', 'search', this);
         app.go('searchresult');
     };
-    }
 }
