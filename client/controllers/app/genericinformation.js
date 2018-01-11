@@ -2,5 +2,5 @@ angular.module('app').controller('app_genericinformation', app_genericinformatio
 function app_genericinformation($scope, app) {
     'use strict';
     app.init($scope);
-    $scope.showMore = 1
+    $scope.showMore = true;
 }
