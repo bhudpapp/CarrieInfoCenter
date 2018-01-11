@@ -60,12 +60,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.shipmentdetail2', {
+    }).state('app.genericinformation', {
         views: {
             app: {
-                controller: 'app_shipmentdetail2',
+                controller: 'app_genericinformation',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.shipmentdetail2');
+                    return app.templateProvider('app.genericinformation');
                 }
             }
         }
