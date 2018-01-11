@@ -8,33 +8,60 @@
     </ion-nav-bar>
     <ion-content class="" data-comp-id="ionic-content.1">
         <!--Form Contents-->
-        <div class="row" data-comp-id="row.4">
-            <div class="col col-10" data-comp-id="column.9"></div>
-            <div class="col" data-comp-id="column.8">
+        <div class="row" data-comp-id="row.1">
+            <div class="col col-10" data-comp-id="column.1"></div>
+            <div class="col" data-comp-id="column.2">
                 <label class="item item-input" data-comp-id="textInput.1">
                     <span class="input-label">Text</span>
                     <input ng-model="data.trackingNumber" placeholder="Tracking Number" type="text">
                 </label>
             </div>
-            <div class="col col-10" data-comp-id="column.10" ng-click="search()">
+            <div class="col col-10" data-comp-id="column.3" ng-click="search()">
                 <button class="button button-clear ion-ios-search button-small"
-                    data-comp-id="button.4" style="font-size: 25px;"></button>
+                    data-comp-id="button.2" style="font-size: 25px;"></button>
             </div>
         </div>
+        <ion-list data-comp-id="ionic-list.1">
+            <div class="item item-icon-right card" data-comp-id="item.1"
+                ng-click="app.action('listview', 'data.listItems[item].action', this)"
+                ng-repeat="item in data.searchResultList"
+                style="border-top: 1px solid rgba(255, 255, 255, 0);">
+                <div class="row" data-comp-id="row.2">
+                    <div class="col" data-comp-id="column.4">
+                        <div class=" positive" data-comp-id="text.1" ng-bind="item.trackingNumber">Price &amp; Availability</div>
+                    </div>
+                    <div class="col" data-comp-id="column.5">
+                        <div data-comp-id="text.2" ng-bind="item.creationDate">Some text</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.3">
+                    <div class="col" data-comp-id="column.6">
+                        <div data-comp-id="text.3" ng-bind="item.shipmentNumber">Some text</div>
+                        <div data-comp-id="text.4" ng-bind="item.packageNumber">Some text</div>
+                    </div>
+                    <div class="col" data-comp-id="column.7">
+                        <div data-comp-id="text.5" ng-bind="item.project">Some text</div>
+                    </div>
+                </div>
+                <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
+                    ng-click="app.action('landing', 'searchResultClick', this)"
+                    style="font-size: 20px;"></i>
+            </div>
+        </ion-list>
         <!--Form Contents-->
     </ion-content>
-    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.2"
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
         dynamic-floating-footer="">
-        <div class="row" data-comp-id="row.1" style="padding: 0px;">
-            <div class="col" data-comp-id="column.1" style="padding: 0px;"></div>
-            <div class="col text-center" data-comp-id="column.2" style="padding: 0px;">
-                <div class="footer-button" data-comp-id="footerButton.3">
+        <div class="row" data-comp-id="row.4" style="padding: 0px;">
+            <div class="col" data-comp-id="column.8" style="padding: 0px;"></div>
+            <div class="col text-center" data-comp-id="column.9" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon button-round button-shadowed fa-icon fa-barcode"
                         ng-click="scan()"></button>
                     <div class="label"></div>
                 </div>
             </div>
-            <div class="col text-right" data-comp-id="column.3" style="padding: 0px;"></div>
+            <div class="col text-right" data-comp-id="column.10" style="padding: 0px;"></div>
         </div>
     </div>
 </ion-view>
