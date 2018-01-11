@@ -22,8 +22,7 @@ function app_landing($scope, app) {
     };
     $scope.search = function()
     {
-        $scope.searchResultList = app.action('landing', 'search', this);
-        console.log($scope.searchResultList);
+        app.action('landing', 'search', this);
         app.go('searchresult');
     };
 }
