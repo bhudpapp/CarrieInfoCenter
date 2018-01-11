@@ -114,14 +114,5 @@
       "selectIndex": 1
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "screens": [
-        "landing"
-      ]
-    }
-  ]
+  "connect": []
 }
