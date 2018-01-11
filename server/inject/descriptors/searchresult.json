@@ -41,7 +41,7 @@
           },
           "action": {
             "type": "action",
-            "selector": "#SearchResult > table > tbody > tr.k-state-selected",
+            "selector": "td",
             "control": "action.click"
           }
         }
