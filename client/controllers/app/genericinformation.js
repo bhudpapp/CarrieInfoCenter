@@ -4,6 +4,6 @@ function app_genericinformation($scope, app) {
     app.init($scope);
     
     $scope.back = function() {
-        history.go(-1);
+        history(-1);
     };
 }
