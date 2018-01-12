@@ -17,10 +17,12 @@ function app_genericinformation($scope, app) {
     };
     
     $scope.increasePageIndex = function() {
-        app.data.increasePageIndex = app.data.increasePageIndex + 1;
+        app.data.pageIndex = app.data.pageIndex + 1;
+        console.log(app.data.pageIndex)
     };
     
     $scope.decreasePageIndex = function() {
-        app.data.increasePageIndex = app.data.increasePageIndex - 1;
+        app.data.pageIndex = app.data.pageIndex - 1;
+        console.log(app.data.pageIndex)
     };
 }
