@@ -166,14 +166,15 @@
             <div class="col" data-comp-id="column.37">
                 <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon ion-arrow-left-c button-round button-shadowed"
-                        ng-click="changeScreen()" ng-disabled="data.isGenericInformation"></button>
+                        ng-click="decreasePageIndex()" ng-disabled="data.pageIndex == 0"></button>
                     <div class="label"></div>
                 </div>
             </div>
             <div class="col" data-comp-id="column.38">
                 <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
                     <button class="button icon ion-arrow-right-c button-round button-shadowed"
-                        ng-click="changeScreen()" ng-disabled="!data.isGenericInformation"></button>
+                        ng-click="increasePageIndex()"
+                        ng-disabled="data.pageIndex == data.pageCount - 1"></button>
                     <div class="label"></div>
                 </div>
             </div>
