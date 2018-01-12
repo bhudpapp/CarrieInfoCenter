@@ -129,6 +129,25 @@
           }
         }
       }
+    },
+    "avDocs": {
+      "type": "array",
+      "selectorAll": "#panelbar > li.div-header.k-item.k-state-default.k-state-highlight.k-state-active > div > div",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "selector": ".div-table-row",
+            "control": "property.innerHTML"
+          },
+          "print": {
+            "type": "action",
+            "selector": ".div-table-row",
+            "control": "property.innerHTML"
+          }
+        }
+      }
     }
   },
   "connect": [
