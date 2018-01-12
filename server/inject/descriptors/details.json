@@ -93,7 +93,7 @@
     },
     "RName": {
       "type": "string",
-      "selector": "#resultDetails",
+      "selector": ".div-table-col-content.div-table-col-indentation",
       "control": "property.innerText"
     },
     "RAddress": {
