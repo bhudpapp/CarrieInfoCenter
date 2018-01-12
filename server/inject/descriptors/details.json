@@ -125,7 +125,7 @@
           "print": {
             "type": "action",
             "selector": "a",
-            "control": "action.click"
+            "control": "action.link"
           }
         }
       }
@@ -144,8 +144,9 @@
           },
           "print": {
             "type": "action",
-            "selector": ".div-table-row",
-            "control": "property.innerHTML"
+            "selector": "a",
+            "control": "action.link",
+            "selectIndex": 1
           }
         }
       }
