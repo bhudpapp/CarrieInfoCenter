@@ -138,8 +138,9 @@
         "properties": {
           "type": {
             "type": "string",
-            "selector": ".div-table-row",
-            "control": "property.innerHTML"
+            "selector": "div",
+            "control": "property.innerHTML",
+            "selectIndex": 2
           },
           "print": {
             "type": "action",
