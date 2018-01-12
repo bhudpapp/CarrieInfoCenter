@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'http://bhunt921/Xtend/Carrie/Search',
+    startURL: 'about:blank',//'http://bhunt921/Xtend/Carrie/Search',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
@@ -69,7 +69,7 @@ module.exports = {
         // Log filters let you exclude some parameters from logs for security purposes,
         // such as passwords or other sensitive user data.
         // Usage: "api.method": [ "param1", "param2" ]
-        logFilters: { 'login.login': ['password'] }
+        logFilters: { 'login.login': ['password', 'passwd'], 'ad.adLogin': [ 'passwd', 'body', 'req'] }
     },
     // Size of the params to log for server responses.  Requests are always fully logged.
     // By default, server responses are truncated to 80 chars.  This will allow for a longer
