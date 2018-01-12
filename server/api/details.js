@@ -1,0 +1,1 @@
+exports.pageBack = function (page) { page.history(-1) };
