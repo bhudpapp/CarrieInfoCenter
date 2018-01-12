@@ -119,7 +119,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "selector": ".div-table-row",
+            "selector": "div",
             "control": "property.innerHTML"
           },
           "print": {
