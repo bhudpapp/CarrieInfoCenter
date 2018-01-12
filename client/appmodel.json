@@ -102,6 +102,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "errorMessage": {
+        "type": "string"
       }
     }
   },
