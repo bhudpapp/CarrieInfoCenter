@@ -148,9 +148,6 @@
       "netWeight": {
         "type": "string"
       },
-      "RContactName": {
-        "type": "string"
-      },
       "sName": {
         "type": "string",
         "update": {
@@ -220,6 +217,9 @@
             }
           }
         }
+      },
+      "rContactName": {
+        "type": "string"
       }
     }
   }
