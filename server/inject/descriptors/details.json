@@ -125,7 +125,7 @@
           "print": {
             "type": "action",
             "selector": "a",
-            "control": "property.innerHTML"
+            "control": "action.click"
           }
         }
       }
