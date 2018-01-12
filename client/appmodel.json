@@ -152,25 +152,46 @@
         "type": "string"
       },
       "sName": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "sAddress": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "sPhone": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "sContactName": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "rName": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "rAddress": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "rPhone": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "avLabels": {
         "type": "array",
