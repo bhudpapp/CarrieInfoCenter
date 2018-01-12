@@ -83,12 +83,12 @@
     },
     "SPhone": {
       "type": "string",
-      "selector": "detailsheader > div > div:nth-child(3) > div:nth-child(2)",
+      "selector": "detailsheader > div > div:nth-child(4) > div:nth-child(1)",
       "control": "property.innerText"
     },
     "SContactName": {
       "type": "string",
-      "selector": "#resultDetails",
+      "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(1)",
       "control": "property.innerText"
     },
     "RName": {
