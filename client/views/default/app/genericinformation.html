@@ -10,7 +10,7 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <!--Form Contents-->
-    <div class="row" data-comp-id="row.1">
+    <div class="row" data-comp-id="row.1" ng-if="data.isGenericINformation">
         <div class="col" data-comp-id="column.1">
             <!--Form Contents-->
             <div class=" text-center" data-comp-id="text.1" style="font-weight: bold;">Generic Information</div>
@@ -113,7 +113,7 @@
             </div>
         </div>
     </div>
-    <div class="row" data-comp-id="row.14">
+    <div class="row" data-comp-id="row.14" ng-if="!data.isGenericInformation">
         <div class="col" data-comp-id="column.26">
             <div class="row" data-comp-id="row.15">
                 <div class="col" data-comp-id="column.27">
