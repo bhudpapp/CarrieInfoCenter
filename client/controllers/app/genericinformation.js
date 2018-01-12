@@ -12,10 +12,6 @@ function app_genericinformation($scope, app) {
         page.history(-1);
     };
     
-    $scope.changeScreen = function() {
-        app.data.isGenericInformation = !app.data.isGenericInformation;
-    };
-    
     $scope.increasePageIndex = function() {
         app.data.pageIndex = app.data.pageIndex + 1;
     };
