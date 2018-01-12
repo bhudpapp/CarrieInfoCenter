@@ -18,11 +18,9 @@ function app_genericinformation($scope, app) {
     
     $scope.increasePageIndex = function() {
         app.data.pageIndex = app.data.pageIndex + 1;
-        console.log(app.data.pageIndex)
     };
     
     $scope.decreasePageIndex = function() {
         app.data.pageIndex = app.data.pageIndex - 1;
-        console.log(app.data.pageIndex)
     };
 }
