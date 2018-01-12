@@ -74,7 +74,7 @@
     "SName": {
       "type": "string",
       "selector": ".div-table-col-content.div-table-col-indentation",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "SAddress": {
       "type": "string",
