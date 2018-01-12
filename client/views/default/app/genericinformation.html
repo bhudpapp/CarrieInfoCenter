@@ -155,7 +155,7 @@
                         <div data-comp-id="text.34" ng-bind="data.sContactName" style="">Shipper Contact Name</div>
                     </div>
                     <div class="col" data-comp-id="column.36">
-                        <div data-comp-id="text.35" style="">Recipient Contact Name</div>
+                        <div data-comp-id="text.35" ng-bind="data.rContactName" style="">Recipient Contact Name</div>
                     </div>
                 </div>
                 <div class="row" data-comp-id="row.20">
@@ -170,8 +170,10 @@
                 </div>
                 <div class="row" data-comp-id="row.22">
                     <div class="col" data-comp-id="column.39">
-                        <div class="item item-icon-right" data-comp-id="item.2">
-                            <div data-comp-id="text.37">Label
+                        <div class="item item-icon-right" data-comp-id="item.2"
+                            ng-click="app.action('details', 'avLabels[item].print', this)"
+                            ng-repeat="item in data.avLabels">
+                            <div data-comp-id="text.37" ng-bind="item.type">Label
                                 <span class="item-note"></span>
                             </div>
                             <i class="icon ion-printer" data-comp-id="icon.1" style="font-size:32px"></i>

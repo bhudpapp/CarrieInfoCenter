@@ -196,12 +196,18 @@
           "type": "object",
           "properties": {
             "type": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "print": {
               "type": "action"
             }
           }
+        },
+        "update": {
+          "type": "none"
         }
       },
       "avDocs": {
@@ -219,7 +225,10 @@
         }
       },
       "rContactName": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
