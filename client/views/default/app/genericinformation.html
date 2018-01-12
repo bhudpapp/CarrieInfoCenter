@@ -11,7 +11,7 @@
     </ion-nav-bar>
     <!--Form Contents-->
     <ion-content data-comp-id="ionic-content.1">
-        <div class="row" data-comp-id="row.1" ng-if="data.pageIndex == 0">
+        <div class="row" data-comp-id="row.1" ng-if="data.pageIndex == 1">
             <div class="col" data-comp-id="column.1">
                 <!--Form Contents-->
                 <div class=" text-center" data-comp-id="text.1" style="font-weight: bold;">Generic Information</div>
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" data-comp-id="row.14" ng-if="data.pageIndex == 1">
+        <div class="row" data-comp-id="row.14" ng-if="data.pageIndex == 0">
             <div class="col" data-comp-id="column.26">
                 <div class="row" data-comp-id="row.15">
                     <div class="col" data-comp-id="column.27">
@@ -158,19 +158,39 @@
                         <div data-comp-id="text.35" style="">Recipient Contact Name</div>
                     </div>
                 </div>
+                <div class="row" data-comp-id="row.20">
+                    <div class="col" data-comp-id="column.37">
+                        <div class="card" data-comp-display="card.3" data-comp-id="div.3"></div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.21">
+                    <div class="col" data-comp-id="column.38">
+                        <div class=" text-center" data-comp-id="text.36" style="font-weight: bold;">Available Labels and Documents:</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.22">
+                    <div class="col" data-comp-id="column.39">
+                        <div class="item item-icon-right" data-comp-id="item.2">
+                            <div data-comp-id="text.37">Label
+                                <span class="item-note"></span>
+                            </div>
+                            <i class="icon ion-printer" data-comp-id="icon.1" style="font-size:32px"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </ion-content>
     <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer="">
-        <div class="row" data-comp-id="row.20">
-            <div class="col" data-comp-id="column.37">
+        <div class="row" data-comp-id="row.23">
+            <div class="col" data-comp-id="column.40">
                 <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon ion-arrow-left-c button-round button-shadowed"
                         ng-click="decreasePageIndex()" ng-disabled="data.pageIndex == 0"></button>
                     <div class="label"></div>
                 </div>
             </div>
-            <div class="col" data-comp-id="column.38">
+            <div class="col" data-comp-id="column.41">
                 <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
                     <button class="button icon ion-arrow-right-c button-round button-shadowed"
                         ng-click="increasePageIndex()"
