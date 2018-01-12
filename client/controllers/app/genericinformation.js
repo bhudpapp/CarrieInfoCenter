@@ -9,6 +9,7 @@ function app_genericinformation($scope, app) {
     app.data.pageCount = 2;
     
     $scope.back = function() {
+       app.call("")
         page.history(-1);
     };
     
