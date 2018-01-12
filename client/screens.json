@@ -29,13 +29,6 @@
       "model": "landing"
     },
     {
-      "id": "searchresult",
-      "name": "SearchResult",
-      "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates",
-      "model": "landing"
-    },
-    {
       "id": "genericinformation",
       "name": "GenericInformation",
       "sourceScreenId": "app.formsmall.formsmallcool",
