@@ -3,7 +3,7 @@ function app_genericinformation($scope, app) {
     'use strict';
     app.init($scope);
     
-    app.data.isGenericInformation = false;
+    app.data.isGenericInformation = true;
     
     $scope.back = function() {
         page.history(-1);
