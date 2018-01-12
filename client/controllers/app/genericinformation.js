@@ -5,7 +5,7 @@ function app_genericinformation($scope, app) {
     
     app.data.isGenericInformation = true;
     
-    app.data.pageIndex = 0;
+    app.data.pageIndex = 1;
     app.data.pageCount = 2;
     
     $scope.back = function() {
