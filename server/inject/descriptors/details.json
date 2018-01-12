@@ -71,49 +71,49 @@
       "control": "property.innerText",
       "selectIndex": 1
     },
-    "SName": {
-      "type": "string",
-      "selector": ".div-table-col-content.div-table-col-indentation",
-      "control": "property.innerText"
-    },
-    "SAddress": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(3) > div:nth-child(1)",
-      "control": "property.innerText"
-    },
-    "SPhone": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(4) > div:nth-child(1)",
-      "control": "property.innerText"
-    },
-    "SContactName": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(1)",
-      "control": "property.innerText"
-    },
-    "RName": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(2) > div:nth-child(2)",
-      "control": "property.innerText"
-    },
-    "RAddress": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(3) > div:nth-child(2)",
-      "control": "property.innerText"
-    },
-    "RPhone": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(4) > div:nth-child(2)",
-      "control": "property.innerText"
-    },
     "RContactName": {
       "type": "string",
       "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(2)",
       "control": "property.innerText"
     },
-    "AVLabels": {
+    "sName": {
+      "type": "string",
+      "selector": ".div-table-col-content.div-table-col-indentation",
+      "control": "property.innerText"
+    },
+    "sAddress": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(3) > div:nth-child(1)",
+      "control": "property.innerText"
+    },
+    "sPhone": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(4) > div:nth-child(1)",
+      "control": "property.innerText"
+    },
+    "sContactName": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(1)",
+      "control": "property.innerText"
+    },
+    "rName": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(2) > div:nth-child(2)",
+      "control": "property.innerText"
+    },
+    "rAddress": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(3) > div:nth-child(2)",
+      "control": "property.innerText"
+    },
+    "rPhone": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(4) > div:nth-child(2)",
+      "control": "property.innerText"
+    },
+    "avLabels": {
       "type": "array",
-      "selectorAll": ".div-table-row",
+      "selectorAll": "#panelbar > li.div-header.k-item.k-state-default.k-state-highlight.k-state-active > div > div",
       "items": {
         "type": "object",
         "properties": {}
