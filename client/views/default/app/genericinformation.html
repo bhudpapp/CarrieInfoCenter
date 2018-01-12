@@ -124,6 +124,7 @@
                         <div data-comp-id="text.27" style="font-weight: bold;">Ship To:</div>
                     </div>
                 </div>
+                <div class="card" data-comp-display="card.1" data-comp-id="div.1"></div>
                 <div class="row light-bg" data-comp-id="row.16">
                     <div class="col" data-comp-id="column.29">
                         <div data-comp-id="text.28" style="">Shipper Name</div>
@@ -158,23 +159,23 @@
                 </div>
             </div>
         </div>
-        <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer="">
-            <div class="row" data-comp-id="row.20">
-                <div class="col" data-comp-id="column.37">
-                    <div class="footer-button" data-comp-id="footerButton.1">
-                        <button class="button icon ion-arrow-left-c button-round button-shadowed"
-                            ng-click="changeScreen()" ng-disabled="data.isGenericInformation"></button>
-                        <div class="label"></div>
-                    </div>
-                </div>
-                <div class="col" data-comp-id="column.38">
-                    <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
-                        <button class="button icon ion-arrow-right-c button-round button-shadowed"
-                            ng-click="changeScreen()" ng-disabled="!data.isGenericInformation"></button>
-                        <div class="label"></div>
-                    </div>
+    </ion-content>
+    <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer="">
+        <div class="row" data-comp-id="row.20">
+            <div class="col" data-comp-id="column.37">
+                <div class="footer-button" data-comp-id="footerButton.1">
+                    <button class="button icon ion-arrow-left-c button-round button-shadowed"
+                        ng-click="changeScreen()" ng-disabled="data.isGenericInformation"></button>
+                    <div class="label"></div>
                 </div>
             </div>
-        </ion-footer-bar>
-    </ion-content>
+            <div class="col" data-comp-id="column.38">
+                <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
+                    <button class="button icon ion-arrow-right-c button-round button-shadowed"
+                        ng-click="changeScreen()" ng-disabled="!data.isGenericInformation"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+        </div>
+    </ion-footer-bar>
 </ion-view>
