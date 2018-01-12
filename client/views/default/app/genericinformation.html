@@ -119,13 +119,14 @@
             <div class="col" data-comp-id="column.25">
                 <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon ion-arrow-left-c button-round button-shadowed"
-                        ng-click="app.go('app.searchresult')"></button>
+                        disabled="isGenericInformation" ng-click="app.go('app.searchresult')"></button>
                     <div class="label"></div>
                 </div>
             </div>
             <div class="col" data-comp-id="column.26">
                 <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
-                    <button class="button icon ion-arrow-right-c button-round button-shadowed"></button>
+                    <button class="button icon ion-arrow-right-c button-round button-shadowed"
+                        disabled="!isGenericInformation"></button>
                     <div class="label"></div>
                 </div>
             </div>
