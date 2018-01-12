@@ -116,7 +116,7 @@
     "errorMessage": {
       "type": "string",
       "selector": "#work-area > div:nth-child(2) > div > div > div > div > ul > li",
-      "control": "text"
+      "control": "property.innerText"
     }
   },
   "connect": [
