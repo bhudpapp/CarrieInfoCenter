@@ -79,37 +79,37 @@
     "SAddress": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "SPhone": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "SContactName": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "RName": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "RAddress": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "RPhone": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     },
     "RContactName": {
       "type": "string",
       "selector": "#resultDetails",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     }
   },
   "connect": [
