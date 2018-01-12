@@ -158,6 +158,24 @@
                         <div data-comp-id="text.35" ng-bind="data.rContactName" style="">Recipient Contact Name</div>
                     </div>
                 </div>
+                <div class="row" data-comp-id="row.24">
+                    <div class="col" data-comp-id="column.42">
+                        <div class=" text-center" data-comp-id="text.38" style="font-weight: bold;">Available Documents:</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.25">
+                    <div class="col" data-comp-id="column.43">
+                        <div class="item item-icon-right" data-comp-id="item.3"
+                            ng-repeat="item in data.avDocs">
+                            <div data-comp-id="text.39" ng-bind="item.type">
+                                Some text
+                                <span class="item-note"></span>
+                            </div>
+                            <i class="icon ion-printer" data-comp-id="icon.2" ng-click="notImplemented()"
+                                style="font-size:32px"></i>
+                        </div>
+                    </div>
+                </div>
                 <div class="row" data-comp-id="row.20">
                     <div class="col" data-comp-id="column.37">
                         <div class="card" data-comp-display="card.3" data-comp-id="div.3"></div>
@@ -165,7 +183,7 @@
                 </div>
                 <div class="row" data-comp-id="row.21">
                     <div class="col" data-comp-id="column.38">
-                        <div class=" text-center" data-comp-id="text.36" style="font-weight: bold;">Available Labels and Documents:</div>
+                        <div class=" text-center" data-comp-id="text.36" style="font-weight: bold;">Available Labels:</div>
                     </div>
                 </div>
                 <div class="row" data-comp-id="row.22">
