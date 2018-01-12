@@ -19,7 +19,7 @@
     },
     "packageNumber": {
       "type": "string",
-      "selector": "li.div-header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div.div-table-col-content",
+      "selector": "#panelbar > li.div-header.k-state-active.k-item.k-first.k-state-highlight > div > div:nth-child(1) > div.div-table-col-content",
       "control": "property.innerText"
     },
     "serviceLevel": {
