@@ -1,4 +1,16 @@
 {
+ "avLabels": [
+  {
+   "$i": 0,
+   "type": "AWB Label"
+  }
+ ],
+ "avDocs": [
+  {
+   "$i": 0,
+   "type": "FreightOutboundLabel"
+  }
+ ],
  "isDetails": true,
  "trackingNumber": "1957669652",
  "shipmentNumber": "LD001",
@@ -11,5 +23,13 @@
  "depth": "10.00 cm",
  "totalWeight": "40.00 kg",
  "measuredWeight": "0 kg",
- "netWeight": "20.00 kg"
+ "netWeight": "20.00 kg",
+ "sName": "Mr Flex",
+ "sAddress": "123 6th St.",
+ "sPhone": "N/A",
+ "sContactName": "Kozma Laci bacsi",
+ "rName": "Palo Alto Networks",
+ "rAddress": "Recipient Address Line 1",
+ "rPhone": "N/A",
+ "rContactName": "Mr Recipient"
 }
