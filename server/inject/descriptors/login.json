@@ -42,8 +42,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": ".div-table-row",
-      "control": "property.innerHTML"
+      "selector": "body",
+      "control": "exists"
     }
   },
   "connect": [
