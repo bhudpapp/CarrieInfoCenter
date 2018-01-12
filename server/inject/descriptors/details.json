@@ -132,7 +132,7 @@
     },
     "avDocs": {
       "type": "array",
-      "selectorAll": ".div-table-col-contentWithIcon",
+      "selectorAll": "#panelbar > li.div-header.k-item.k-state-default.k-state-highlight.k-state-active > div > div",
       "items": {
         "type": "object",
         "properties": {
