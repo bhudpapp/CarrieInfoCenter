@@ -19,4 +19,8 @@ function app_genericinformation($scope, app) {
     $scope.decreasePageIndex = function() {
         app.data.pageIndex = app.data.pageIndex - 1;
     };
+    
+    $scope.notImplemented = function() {
+        alert('Not implemented!');
+    };
 }
