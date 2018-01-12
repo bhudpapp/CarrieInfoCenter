@@ -48,9 +48,17 @@ function app_login($scope, app, $q) {
         $scope.app.showLoading('Logging in');
         var username = credentials.username;
         var password = credentials.password;
-        if (useWebsocket || app.login($scope.data.username, $scope.data.password)) {
-            app.action('login', 'submit', this);
-        }
+       
+        var req = {
+            body: {
+                ad: "ad.flextronics.com",
+                uid: username,
+                domain: "europe",
+                passwd: password
+           }
+        };
+       
+        app.call("ad.adLogin", req);
     };
     $scope.doAppLogin = function (credentials) {
         window.plugins.touchid.save('credentials', JSON.stringify(credentials));
