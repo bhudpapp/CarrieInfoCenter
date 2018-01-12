@@ -9,121 +9,128 @@
             <button class="button button-icon ion-home" data-comp-id="button.2"></button>
         </ion-nav-buttons>
     </ion-nav-bar>
-    <ion-content class="" data-comp-id="ionic-content.1">
-        <!--Form Contents-->
-        <div data-comp-id="div.1" ng-if="data.isGenericInformation"
-            style="width: 90%; margin: 5%;">
-            <div class=" text-center" data-comp-id="text.1" style="font-weight: bold;">Generic Information</div>
-            <div class="row light-bg" data-comp-id="row.1" style="margin: 0px;">
-                <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.2" style="font-weight: bold;">Shipment Number:</div>
+    <!--Form Contents-->
+    <div class="row" data-comp-id="row.1">
+        <div class="col" data-comp-id="column.1">
+            <ion-content class="" data-comp-id="ionic-content.1">
+                <!--Form Contents-->
+                <div data-comp-id="div.1" ng-if="data.isGenericInformation"
+                    style="width: 90%; margin: 5%;">
+                    <div class=" text-center" data-comp-id="text.1" style="font-weight: bold;">Generic Information</div>
+                    <div class="row light-bg" data-comp-id="row.2" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.2">
+                            <div data-comp-id="text.2" style="font-weight: bold;">Shipment Number:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.3">
+                            <div data-comp-id="text.3" ng-bind="data.shipmentNumber">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.3" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.4">
+                            <div data-comp-id="text.4" style="font-weight: bold;">Package Number:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.5">
+                            <div data-comp-id="text.5" ng-bind="data.packageNumber">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row light-bg" data-comp-id="row.4" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.6">
+                            <div data-comp-id="text.6" style="font-weight: bold;">Tracking Number:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.7">
+                            <div data-comp-id="text.7" ng-bind="data.trackingNumber">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.5" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.8">
+                            <div data-comp-id="text.8" style="font-weight: bold;">Service Level:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.9">
+                            <div data-comp-id="text.9" ng-bind="data.serviceLevel">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row light-bg" data-comp-id="row.6" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.10">
+                            <div data-comp-id="text.10" style="font-weight: bold;">Status:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.11">
+                            <div data-comp-id="text.11" ng-bind="data.status">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.7" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.12">
+                            <div data-comp-id="text.12" style="font-weight: bold;">Creation Date:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.13">
+                            <div data-comp-id="text.13" ng-bind="data.creationDate">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row light-bg" data-comp-id="row.8" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.14">
+                            <div data-comp-id="text.14" style="font-weight: bold;">Height:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.15">
+                            <div data-comp-id="text.15" ng-bind="data.height">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.9" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.16">
+                            <div data-comp-id="text.16" style="font-weight: bold;">Length:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.17">
+                            <div data-comp-id="text.17" ng-bind="data.length">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row light-bg" data-comp-id="row.10" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.18">
+                            <div data-comp-id="text.18" style="font-weight: bold;">Width:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.19">
+                            <div data-comp-id="text.19" ng-bind="data.depth">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.11" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.20">
+                            <div data-comp-id="text.20" style="font-weight: bold;">Total Weight:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.21">
+                            <div data-comp-id="text.21" ng-bind="data.totalWeight">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row light-bg" data-comp-id="row.12" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.22">
+                            <div data-comp-id="text.22" style="font-weight: bold;">Measured Weight:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.23">
+                            <div data-comp-id="text.23" ng-bind="data.measuredWeight">Some text</div>
+                        </div>
+                    </div>
+                    <div class="row stable-bg" data-comp-id="row.13" style="margin: 0px;">
+                        <div class="col" data-comp-id="column.24">
+                            <div data-comp-id="text.24" style="font-weight: bold;">Net Weight:</div>
+                        </div>
+                        <div class="col" data-comp-id="column.25">
+                            <div data-comp-id="text.25" ng-bind="data.netWeight">Some text</div>
+                        </div>
+                    </div>
+                    <div data-comp-id="div.2"></div>
                 </div>
-                <div class="col" data-comp-id="column.2">
-                    <div data-comp-id="text.3" ng-bind="data.shipmentNumber">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.2" style="margin: 0px;">
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.4" style="font-weight: bold;">Package Number:</div>
-                </div>
-                <div class="col" data-comp-id="column.4">
-                    <div data-comp-id="text.5" ng-bind="data.packageNumber">Some text</div>
-                </div>
-            </div>
-            <div class="row light-bg" data-comp-id="row.3" style="margin: 0px;">
-                <div class="col" data-comp-id="column.5">
-                    <div data-comp-id="text.6" style="font-weight: bold;">Tracking Number:</div>
-                </div>
-                <div class="col" data-comp-id="column.6">
-                    <div data-comp-id="text.7" ng-bind="data.trackingNumber">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.4" style="margin: 0px;">
-                <div class="col" data-comp-id="column.7">
-                    <div data-comp-id="text.8" style="font-weight: bold;">Service Level:</div>
-                </div>
-                <div class="col" data-comp-id="column.8">
-                    <div data-comp-id="text.9" ng-bind="data.serviceLevel">Some text</div>
-                </div>
-            </div>
-            <div class="row light-bg" data-comp-id="row.5" style="margin: 0px;">
-                <div class="col" data-comp-id="column.9">
-                    <div data-comp-id="text.10" style="font-weight: bold;">Status:</div>
-                </div>
-                <div class="col" data-comp-id="column.10">
-                    <div data-comp-id="text.11" ng-bind="data.status">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.6" style="margin: 0px;">
-                <div class="col" data-comp-id="column.11">
-                    <div data-comp-id="text.12" style="font-weight: bold;">Creation Date:</div>
-                </div>
-                <div class="col" data-comp-id="column.12">
-                    <div data-comp-id="text.13" ng-bind="data.creationDate">Some text</div>
-                </div>
-            </div>
-            <div class="row light-bg" data-comp-id="row.7" style="margin: 0px;">
-                <div class="col" data-comp-id="column.13">
-                    <div data-comp-id="text.14" style="font-weight: bold;">Height:</div>
-                </div>
-                <div class="col" data-comp-id="column.14">
-                    <div data-comp-id="text.15" ng-bind="data.height">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.8" style="margin: 0px;">
-                <div class="col" data-comp-id="column.15">
-                    <div data-comp-id="text.16" style="font-weight: bold;">Length:</div>
-                </div>
-                <div class="col" data-comp-id="column.16">
-                    <div data-comp-id="text.17" ng-bind="data.length">Some text</div>
-                </div>
-            </div>
-            <div class="row light-bg" data-comp-id="row.9" style="margin: 0px;">
-                <div class="col" data-comp-id="column.17">
-                    <div data-comp-id="text.18" style="font-weight: bold;">Width:</div>
-                </div>
-                <div class="col" data-comp-id="column.18">
-                    <div data-comp-id="text.19" ng-bind="data.depth">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.10" style="margin: 0px;">
-                <div class="col" data-comp-id="column.19">
-                    <div data-comp-id="text.20" style="font-weight: bold;">Total Weight:</div>
-                </div>
-                <div class="col" data-comp-id="column.20">
-                    <div data-comp-id="text.21" ng-bind="data.totalWeight">Some text</div>
-                </div>
-            </div>
-            <div class="row light-bg" data-comp-id="row.11" style="margin: 0px;">
-                <div class="col" data-comp-id="column.21">
-                    <div data-comp-id="text.22" style="font-weight: bold;">Measured Weight:</div>
-                </div>
-                <div class="col" data-comp-id="column.22">
-                    <div data-comp-id="text.23" ng-bind="data.measuredWeight">Some text</div>
-                </div>
-            </div>
-            <div class="row stable-bg" data-comp-id="row.12" style="margin: 0px;">
-                <div class="col" data-comp-id="column.23">
-                    <div data-comp-id="text.24" style="font-weight: bold;">Net Weight:</div>
-                </div>
-                <div class="col" data-comp-id="column.24">
-                    <div data-comp-id="text.25" ng-bind="data.netWeight">Some text</div>
-                </div>
-            </div>
-            <div data-comp-id="div.2"></div>
+            </ion-content>
         </div>
-        <!--Form Contents-->
-    </ion-content>
+    </div>
+    <div class="row" data-comp-id="row.14">
+        <div class="col" data-comp-id="column.26"></div>
+    </div>
     <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer="">
-        <div class="row" data-comp-id="row.13">
-            <div class="col" data-comp-id="column.25">
+        <div class="row" data-comp-id="row.15">
+            <div class="col" data-comp-id="column.27">
                 <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon ion-arrow-left-c button-round button-shadowed"
                         ng-click="changeScreen()" ng-disabled="data.isGenericInformation"></button>
                     <div class="label"></div>
                 </div>
             </div>
-            <div class="col" data-comp-id="column.26">
+            <div class="col" data-comp-id="column.28">
                 <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
                     <button class="button icon ion-arrow-right-c button-round button-shadowed"
                         ng-click="changeScreen()" ng-disabled="!data.isGenericInformation"></button>
