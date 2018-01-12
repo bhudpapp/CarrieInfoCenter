@@ -71,11 +71,6 @@
       "control": "property.innerText",
       "selectIndex": 1
     },
-    "RContactName": {
-      "type": "string",
-      "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(2)",
-      "control": "property.innerText"
-    },
     "sName": {
       "type": "string",
       "selector": ".div-table-col-content.div-table-col-indentation",
@@ -150,6 +145,11 @@
           }
         }
       }
+    },
+    "rContactName": {
+      "type": "string",
+      "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(2)",
+      "control": "property.innerText"
     }
   },
   "connect": [
