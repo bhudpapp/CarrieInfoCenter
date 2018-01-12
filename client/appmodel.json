@@ -147,6 +147,58 @@
       },
       "netWeight": {
         "type": "string"
+      },
+      "RContactName": {
+        "type": "string"
+      },
+      "sName": {
+        "type": "string"
+      },
+      "sAddress": {
+        "type": "string"
+      },
+      "sPhone": {
+        "type": "string"
+      },
+      "sContactName": {
+        "type": "string"
+      },
+      "rName": {
+        "type": "string"
+      },
+      "rAddress": {
+        "type": "string"
+      },
+      "rPhone": {
+        "type": "string"
+      },
+      "avLabels": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "print": {
+              "type": "action"
+            }
+          }
+        }
+      },
+      "avDocs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "print": {
+              "type": "action"
+            }
+          }
+        }
       }
     }
   }
