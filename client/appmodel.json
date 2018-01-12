@@ -147,6 +147,9 @@
       },
       "netWeight": {
         "type": "string"
+      },
+      "isGenericInformation": {
+        "type": "boolean"
       }
     }
   }
