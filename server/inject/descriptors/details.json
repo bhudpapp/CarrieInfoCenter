@@ -70,6 +70,46 @@
       "selector": "li.div-header:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div.div-table-col-content",
       "control": "property.innerText",
       "selectIndex": 1
+    },
+    "SName": {
+      "type": "string",
+      "selector": ".div-table-col-content.div-table-col-indentation",
+      "control": "property.innerHTML"
+    },
+    "SAddress": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "SPhone": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "SContactName": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "RName": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "RAddress": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "RPhone": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
+    },
+    "RContactName": {
+      "type": "string",
+      "selector": "#resultDetails",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
