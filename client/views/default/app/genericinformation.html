@@ -158,24 +158,6 @@
                         <div data-comp-id="text.35" ng-bind="data.rContactName" style="">Recipient Contact Name</div>
                     </div>
                 </div>
-                <div class="row" data-comp-id="row.24">
-                    <div class="col" data-comp-id="column.42">
-                        <div class=" text-center" data-comp-id="text.38" style="font-weight: bold;">Available Documents:</div>
-                    </div>
-                </div>
-                <div class="row" data-comp-id="row.25">
-                    <div class="col" data-comp-id="column.43">
-                        <div class="item item-icon-right" data-comp-id="item.3"
-                            ng-repeat="item in data.avDocs">
-                            <div data-comp-id="text.39" ng-bind="item.type">
-                                Some text
-                                <span class="item-note"></span>
-                            </div>
-                            <i class="icon ion-printer" data-comp-id="icon.2" ng-click="notImplemented()"
-                                style="font-size:32px"></i>
-                        </div>
-                    </div>
-                </div>
                 <div class="row" data-comp-id="row.20">
                     <div class="col" data-comp-id="column.37">
                         <div class="card" data-comp-display="card.3" data-comp-id="div.3"></div>
@@ -197,19 +179,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="row" data-comp-id="row.23">
+                    <div class="col" data-comp-id="column.40">
+                        <div class=" text-center" data-comp-id="text.38" style="font-weight: bold;">Available Documents:</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.24">
+                    <div class="col" data-comp-id="column.41">
+                        <div class="item item-icon-right" data-comp-id="item.3"
+                            ng-repeat="item in data.avDocs">
+                            <div data-comp-id="text.39" ng-bind="item.type">
+                                Some text
+                                <span class="item-note"></span>
+                            </div>
+                            <i class="icon ion-printer" data-comp-id="icon.2" ng-click="notImplemented()"
+                                style="font-size:32px"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </ion-content>
     <ion-footer-bar data-comp-id="footer-bar.1" dynamic-fixed-footer="">
-        <div class="row" data-comp-id="row.23">
-            <div class="col" data-comp-id="column.40">
+        <div class="row" data-comp-id="row.25">
+            <div class="col" data-comp-id="column.42">
                 <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon ion-arrow-left-c button-round button-shadowed"
                         ng-click="decreasePageIndex()" ng-disabled="data.pageIndex == 0"></button>
                     <div class="label"></div>
                 </div>
             </div>
-            <div class="col" data-comp-id="column.41">
+            <div class="col" data-comp-id="column.43">
                 <div class="footer-button button-footer-right" data-comp-id="footerButton.2">
                     <button class="button icon ion-arrow-right-c button-round button-shadowed"
                         ng-click="increasePageIndex()"
