@@ -110,6 +110,14 @@
       "type": "string",
       "selector": "detailsheader > div > div:nth-child(5) > div:nth-child(2)",
       "control": "property.innerText"
+    },
+    "AVLabels": {
+      "type": "array",
+      "selectorAll": ".div-table-row",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
