@@ -115,7 +115,7 @@
     },
     "errorMessage": {
       "type": "string",
-      "selector": "li",
+      "selector": "#work-area > div:nth-child(2) > div > div > div > div > ul > li",
       "control": "text"
     }
   },
