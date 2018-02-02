@@ -9,7 +9,7 @@ function app_landing($scope, app) {
         cordova.plugins.barcodeScanner.scan(function (result) {
             setTimeout(function () {
                 $scope.data.format = result.format;
-                $scope.data.text = result.text;
+                $scope.data.trackingNumber = result.text;
                 $scope.$digest();
             }, 0);
         }, function (error) {
